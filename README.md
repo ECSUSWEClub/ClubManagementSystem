@@ -83,6 +83,7 @@ customizable to anyone.
 - Member "Settings" Page: Allow members to update their personal information (name, email, password) and preferences.
 - Meeting Check-in Page: A page for members to check in for meetings and events.
 - Member Profile Page: A personal profile page showing the member’s achievements, attendance, and projects.
+- Survey Page: be able to look at surveys, and answer them
 ## In General
 - Member Log In Page: Secure login page for members to authenticate.
 - Current Project, Dream/Goal of Club, What We Do in Club Page: Informational page about the club’s ongoing projects, mission, and vision.
