@@ -50,7 +50,7 @@ customizable to anyone.
 - We want a page that allows us to see Club Alumni, and as well as connect with them
 - We want a page that allows people to play PacMan using faces of the E-Board
 
-# Pages to Design:
+# Pages to Design (66 Pages in total/33 in total if not counting mobile):
 ## President and Vice President Pages
 - P/VP Dashboard page: displays a summary of upcoming tasks, member attendance, feedback, and achievements
 - Member Skils and Interests Page (Admin View): Display members' skill ands interests
@@ -92,6 +92,6 @@ customizable to anyone.
 - Notifications Page: A unified place for club members to view all notifications (events, new posts, achievements).
 
 ## Enhancements:
-- Mobile-Friendly Pages: Ensure that all pages are responsive for mobile users.
+- Mobile-Friendly Pages: Ensure that all pages are responsive for mobile users. (+33 pages)
 - Notifications
 - Search Functionality: Add search functionality across platform for quick acess to events, feedcback, members, and documents
