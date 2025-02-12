@@ -100,7 +100,7 @@ customizable to anyone.
 # Templates:
 
 ## Example Template:
-![image](https://github.com/user-attachments/assets/38d38fdc-34e8-4722-986b-9f46c47a6393)
+![image](https://github.com/user-attachments/assets/53ae653c-851d-45c8-b486-d3dd89c215db)
 
 ## Example Mobile Template:
 ![image](https://github.com/user-attachments/assets/ac4f7f63-9658-4516-b95c-af2d972c03fa)
