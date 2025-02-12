@@ -109,4 +109,5 @@ customizable to anyone.
 ![image](https://github.com/user-attachments/assets/2351d288-34ec-4a53-804d-4d9f540d5233)
 
 ## Example Admin Mobile Template
-![image](https://github.com/user-attachments/assets/d09e70c5-980e-4d7f-bed8-f197cd34528a)
+![image](https://github.com/user-attachments/assets/a1403c98-1752-43cb-8be8-0a390477d515)
+
