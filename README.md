@@ -100,13 +100,13 @@ customizable to anyone.
 # Templates:
 
 ## Example Template:
-![image](https://github.com/user-attachments/assets/8cce1231-e81a-495a-a4e2-e2d0ee28d562)
+![image](https://github.com/user-attachments/assets/38d38fdc-34e8-4722-986b-9f46c47a6393)
 
 ## Example Mobile Template:
-![image](https://github.com/user-attachments/assets/aa1a2395-a0bb-461c-b84c-2de110f4b152)
+![image](https://github.com/user-attachments/assets/ac4f7f63-9658-4516-b95c-af2d972c03fa)
 
 ## Example Admin Template
-![image](https://github.com/user-attachments/assets/d2c335d2-4de3-4209-8263-6ac2bf99bee3)
+![image](https://github.com/user-attachments/assets/2351d288-34ec-4a53-804d-4d9f540d5233)
 
 ## Example Admin Mobile Template
 ![image](https://github.com/user-attachments/assets/d09e70c5-980e-4d7f-bed8-f197cd34528a)
