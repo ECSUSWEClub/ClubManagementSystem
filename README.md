@@ -111,3 +111,44 @@ customizable to anyone.
 ## Example Admin Mobile Template
 ![image](https://github.com/user-attachments/assets/a1403c98-1752-43cb-8be8-0a390477d515)
 
+# Database Plan
+
+## Tables Needed (primary keys are unique ids):
+### Users
+> This table is used to capture info from members/users. This will contain sensitive data that pertains to the user. The fields used for this table are below:
+- first_name VARCHAR
+- last_name VARCHAR
+- member_username VARCHAR
+- discord_username VARCHAR
+- github_username CARVHAR
+- email VARCHAR
+- role VARCHAR (choice)
+- password VARCHAR (encrypted)
+- data_joined (DATE)
+- active (BOOLEAN)
+- alumni (BOOLEAN)
+### Email List
+> This table is used to see who is a part of our email list, and for what club 'season' As well as other important emails for other tasks. The fields used for this table are below:
+- Foreign Key to Users Table (email)
+### Events
+### Documentation
+### Documentation Sections
+### Minutes
+### Alumni
+### Achievements
+### Recognition
+### Skills
+### Interests
+### Tasks
+### Attendance
+### Suggestions
+### Feedback
+### Recommendations
+### Budget
+### Transaction History
+### Dues/Subscriptions
+### Surveys
+### Survey Questions
+### Meeting
+### Club
+
