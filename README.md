@@ -96,3 +96,17 @@ customizable to anyone.
 - Mobile-Friendly Pages: Ensure that all pages are responsive for mobile users. (+33 pages)
 - Notifications
 - Search Functionality: Add search functionality across platform for quick acess to events, feedcback, members, and documents
+
+# Templates:
+
+## Example Template:
+![image](https://github.com/user-attachments/assets/8cce1231-e81a-495a-a4e2-e2d0ee28d562)
+
+## Example Mobile Template:
+![image](https://github.com/user-attachments/assets/aa1a2395-a0bb-461c-b84c-2de110f4b152)
+
+## Example Admin Template
+![image](https://github.com/user-attachments/assets/d2c335d2-4de3-4209-8263-6ac2bf99bee3)
+
+## Example Admin Mobile Template
+![image](https://github.com/user-attachments/assets/d09e70c5-980e-4d7f-bed8-f197cd34528a)
