@@ -116,39 +116,77 @@ customizable to anyone.
 ## Tables Needed (primary keys are unique ids):
 ### Users
 > This table is used to capture info from members/users. This will contain sensitive data that pertains to the user. The fields used for this table are below:
-- first_name VARCHAR
-- last_name VARCHAR
-- member_username VARCHAR
-- discord_username VARCHAR
+- first_name (VARCHAR)
+- last_name (VARCHAR)
+- member_username (VARCHAR)
+- discord_username (VARCHAR)
 - github_username CARVHAR
-- email VARCHAR
-- role VARCHAR (choice)
-- password VARCHAR (encrypted)
+- email (VARCHAR)
+- role (VARCHAR) (choice)
+- password (VARCHAR) (encrypted)
 - data_joined (DATE)
-- active (BOOLEAN)
-- alumni (BOOLEAN)
+- active (boolean)
+- alumni (boolean)
+- Foreign Key to Club Table (Semester + Year)
+### Club
+> This table is used to capture info on the current club 'season', each season is basically the semester and year since people sometimes are able to be there for one semester, but not the next. As well as being able to have the current project since the current project could be different for each 'season'
+- Semester (VARCHAR)
+- Year (INT)
+- Project (VARCHAR)
+- Project Description (VARCHAR)
 ### Email List
 > This table is used to see who is a part of our email list, and for what club 'season' As well as other important emails for other tasks. The fields used for this table are below:
 - Foreign Key to Users Table (email)
+- Foreign Key to Club Table (Semester + Year)
+- Subscribed (boolean)
 ### Events
+> This table is used to capture info on current, future, and past dates. 
+ - Event Name (VARCHAR)
+ - Event Description (VARCHAR)
+ - Event Date (DATE)
 ### Documentation
+> This table is used to capture info on documentation.
+ - Documentation Title (VARCHAR)
+ - Date Created (DATE)
+ - Created By (Foreign Key to Users)
+ - Last Edited By (Foreign Key to Users NULL)
 ### Documentation Sections
+> This table is used to capture info on sections for documentation. This is primarily used with the Documentation table to give it more a modular way.
+ - Documentation (Foreign Key with Documentation Table)
+ - Section Title (VARCHAR)
+ - Section Text (VARCHAR)
 ### Minutes
+> This table is used to capture the minutes info based on the meeting. This will hold info for what minutes the meeting was for, and as well as a link to where the document is located in.
 ### Alumni
+> This table is used to capture info on Alumni. This will have the user information if they're an alumni or not
 ### Achievements
+> This table will contain achievements of users that will be given by the E-Board
 ### Recognition
+> This table will contain recognition of users that will be given by the E-Board
 ### Skills
+> This table will contain skills of members within the club 
 ### Interests
+> This table will contain interets of members within the club
 ### Tasks
+> This table will contain info on tasks that need to be done, and can be assigned to people, or entire roles. People will be able to check their tasks, and mark it as complete
 ### Attendance
+> This table will track attendance of people in the club
 ### Suggestions
+> This table will contain suggestions from members within the club
 ### Feedback
+> This table will contain feedback from members within the club
 ### Recommendations
+> This table will contain recommendations from members within the club
 ### Budget
+> This table will contain budget information for the club
 ### Transaction History
+> This table will contain recent and past transactions made by the club, as well as what motion it was passed under.
 ### Dues/Subscriptions
+> This table will contain any subscriptions/dues that are owed from the club that will be shown in the budget
 ### Surveys
+> This table will contain info on surveys that have been created, and as well as how many people answered
 ### Survey Questions
+> This table will contain survey questions based off the survey that was given
 ### Meeting
-### Club
+> This table will contain info on meetings based on when it was held, where, and how many were in attendance.
 
