@@ -21,7 +21,7 @@ class Table_users(models.Model):
     active = models.BooleanField(),
     alumni = models.BooleanField(),
     
-    club = models.ForeignKey('Club', on_delete = models.CASCADE, null=True)
+    club = models.ForeignKey(Club, on_delete = models.CASCADE, null=True)
 
     def __str__(self):
         return f"{self.first_name} {self.last_name}"
