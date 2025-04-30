@@ -5,8 +5,8 @@ parameters = ['Present','Excused','Absent',]
 
 class Attendance(models.Model):
     #fields
-    meeting_id = models.IntegerField()
-    user_id = models.IntegerField()
+    meeting_id = models.IntegerField(Meeting)
+    user_id = models.IntegerField(Users)
     status = models.CharField(max_length = 1, choices = parameters)
 
     def __str__(self):
