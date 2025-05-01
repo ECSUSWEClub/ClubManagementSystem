@@ -6,7 +6,7 @@ class Meeting(models.Model):
     date = models.DateField()
     location = models.CharField()
     attendees_count = model.IntegerField()
-    club_season_id = models.IntegerField(Club)
+    club_season_id = models.ForeignKey(Club)
 
     def __str__(self):
         return self.name
