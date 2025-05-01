@@ -1,7 +1,5 @@
 import django.db
 from datetime import date
-#thing for Enum
-parameters = ['Present','Excused','Absent',]
 
 class Meeting(models.Model):
     #fields
